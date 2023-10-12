@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Nasz dokument
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            table {
+                background-color: #f88;
+            }
+
+            
+        </style>
+
+    </head>
+
+    <body>
+        <p>
+            Lorem ipsum dolor, <br>
+            sit amet consectetur <br>
+            adipisicing elit. <br>
+            Accusamus eum minus <br>
+            magnam ad similique <br>
+            ex esse, dolor, <br>
+            porro velit quis eos vel<br>
+            
+            &lt;h1&gt;tytul&lt;/h1&gt;<br>
+            &#65; &copy; &reg; &amp; &nbsp;
+            
+            temporibus&nbsp;magni&nbsp;unde&nbsp;inventore. Recusandae fugiat consequuntur sunt!
+        </p>
+        <h1>Witaj!</h1>
+        <h2>Podtytuł</h2>
+        <p>
+            To jest przykładowy pragraf
+        </p>
+
+        <table border="1">
+            <caption>Zmiany w czasie</caption>
+            <thead>
+                <tr>
+                    <th>
+                        Cena
+                    </th>
+                    <th>
+                        Ilosc
+                    </th>
+                    <th>
+                        Max zamowienie
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">1</td> 
+                    <td rowspan="2">4</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>5</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Suma cen</th>
+                    <th>Srednia ilosc</th>
+                    <th>Najwieksze Max zamowienie</th>
+                </tr>
+                <tr>
+                    <td>
+                        5
+                    </td>
+                    <td>
+                        3.5
+                    </td>
+                    <td>
+                        6
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit obcaecati aliquam dignissimos commodi aspernatur excepturi iste quaerat ratione labore autem! Exercitationem laborum unde dolore corporis pariatur vitae maxime similique accusamus!
+        </p>
+
+        <table border="1">
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table border="1">
+            <tbody>
+                <tr>
+                    <td colspan="2">1</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>6</td>
+                    <td colspan="2">7</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td rowspan="2">12</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                </tr>
+            </tbody>
+       </table>
+
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis doloribus commodi laboriosam! Perspiciatis nisi porro harum debitis, molestiae, doloribus repellendus rerum quibusdam tempore illum necessitatibus facere quasi labore aperiam minima!
+        </p>
+
+        <ul>
+            <li>Europa
+                <ol>
+                    <li>Europa</li>
+                    <li>Azja</li>
+                    <li>Afryka</li>
+                </ol>
+            </li>
+            <li>Azja</li>
+            <li>Afryka</li>
+        </ul>
+
+        <ol>
+            <li>Europa</li>
+            <li>Azja
+                <ul>
+                    <li>Europa
+                        <ol>
+                            <li>Europa</li>
+                            <li>Azja</li>
+                            <li>Afryka</li>
+                        </ol>
+                    </li>
+                    <li>Azja</li>
+                    <li>Afryka</li>
+                </ul>
+
+            </li>
+            <li>Afryka</li>
+        </ol>
+
+        <a href="http://onet.pl">Portal onet.pl</a>
+        <a href="index2.html">Portal onet.pl</a>
+        <img src="img/piesek.png">
+
+        <form action="index2.html" method="post">
+
+            <input type="text" name="imie">
+            <input type="password" name="haslo">
+            <input type="submit">
+            <input type="button" value="Klik">
+            <label for="kawaid">Kawa</label>
+            <input id="kawaid" type="checkbox" name="poczestunek" value="kawa">
+            <label for="ciastkoid">Ciastko</label>
+            <input id="ciastkoid" type="checkbox" name="poczestunek" value="ciastko">
+            <label for="lodyid">Lody</label>
+            <input id="lodyid" type="checkbox" name="poczestunek" value="lody">
+
+            <input type="radio" name="plec" value="kobieta">
+            <input type="radio" name="plec" value="mezczyzna">
+
+            <input type="radio" name="swiadczenie" value="renta">
+            <input type="radio" name="swiadczenie" value="emerytura">
+
+
+            <input type="search">
+
+            <label for="miastoid">Miasto</label>
+            <select name="miasto" id="miastoid" multiple size="10">
+                <option value="" selected disabled>---</option>
+                <option value="waw">Warszawa</option>
+                <option value="krk">Kraków</option>
+                <option value="wro" disabled>Wrocław</option>
+                <option value="gdn">Gdańsk</option>
+                <option value="szz">Szczecin</option>
+            </select>
+
+            <textarea name="uwagi" rows="2" cols="30"></textarea>
+
+
+        </form>
+
+    </body>
+</html>
